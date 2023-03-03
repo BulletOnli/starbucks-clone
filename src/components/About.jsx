@@ -121,7 +121,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 my-8">
+            <div className="w-full grid grid-cols-2 my-8">
                 <div
                     style={{
                         backgroundImage: `url(${img6})`,
@@ -129,7 +129,7 @@ const About = () => {
                         backgroundPosition: "center",
                     }}
                 ></div>
-                <div className="w-[37rem] h-[19rem] flex flex-col justify-center bg-[#D4E9E2] text-center">
+                <div className="h-[19rem] flex flex-col justify-center bg-[#D4E9E2] text-center">
                     <h2 className="text-2xl font-bold mb-8">
                         Sweet as you like
                     </h2>
@@ -140,8 +140,8 @@ const About = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-2">
-                <div className="w-[37rem] h-[19rem] flex flex-col justify-center bg-[#D4E9E2] text-center">
+            <div className="w-full grid grid-cols-2">
+                <div className="h-[19rem] flex flex-col justify-center bg-[#D4E9E2] text-center">
                     <h2 className="text-2xl font-bold mb-8">
                         Starbucks Stories
                     </h2>
